@@ -10,4 +10,5 @@ class Notes {
         this.heading = heading
         this.content = content
     }
+    constructor() {}
 }

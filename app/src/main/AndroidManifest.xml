@@ -20,6 +20,9 @@
         </activity>
         <activity android:name=".AddNoteActivity">
         </activity>
+        <activity android:name=".EditNoteActivity">
+
+        </activity>
     </application>
 
 </manifest>

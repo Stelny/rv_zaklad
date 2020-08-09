@@ -5,11 +5,13 @@
     android:orientation="vertical"
     android:padding="8dp">
     <TextView
+
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Nadpis"
         android:textSize="20dp"/>
     <EditText
+
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/etvHeading"/>
@@ -20,7 +22,7 @@
         android:textSize="20dp"
         android:paddingTop="40dp"/>
     <EditText
-        android:id="@+id/edit_text"
+        android:id="@+id/etvContent"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="text|textMultiLine"
@@ -34,6 +36,10 @@
         android:text="Přidat"
         android:layout_marginTop="16dp"
         android:textColor="#ffff"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/tvResult"
+        android:layout_height="match_parent"/>
 
 
 </LinearLayout>
